@@ -1,0 +1,132 @@
+body{
+    color: #5a8100;
+}
+/* header */
+.page img{
+    width: 150px;
+    margin-left: 45%;
+}
+.page{
+    background: url(actualite-logo.jpg);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    height: 80vh;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 0px;
+    background-color: #cbd4c0;
+}
+.onglets{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 800;
+}
+nav .onglets a{
+    margin-right: 20px;
+    cursor: pointer;
+}
+nav .buttons button{
+    padding: 13px 20px ;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    background-color: #5a8100;
+    color: white;
+    border-radius: 15px
+}
+h1{
+    padding: 20px;
+    margin: 200px;
+    text-align: center;
+    font-size: 40px;
+    width: 60%;
+    background-color:#ffffffdf;
+    color: #5a8100;
+}
+/* fin header */
+/* actualité */
+.actu{
+    font-size: 40px;
+    position: relative;
+}
+.actu::before{
+    content: "";
+    position: absolute;
+    background-color:#5a8100;
+    width: 80px;
+    height: 4px;
+    bottom: 0;
+}
+.h3-actu{
+    margin: 20px;
+    padding: 20px;
+    font-weight: 800;
+}
+.vietnam2021{
+    background-image: url(tigre-nature.jpg);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    padding: 20px;
+    margin-bottom: 10px; 
+    color: white; 
+}
+.article-actu{
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    text-align: justify;
+}
+.Amazonie-2020{
+    background-image: url(un-arbre-une-vie.jpg);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    padding: 20px;
+    margin-bottom: 10px;  
+}
+.Antartique-2019{
+    background-image: url(recherche-pole-nord.webp);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    padding: 20px;
+    margin-bottom: 10px; 
+    color: white; 
+}
+/* fin actualité */
+
+/* pied de page */
+.utilité{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: justify;
+}
+footer{
+    background-color: #cbd4c0;
+    padding: 25px 100px;
+}
+.colonnes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.copyright{
+    text-align: center;
+}
+/* fin pied de page */
