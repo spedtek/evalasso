@@ -472,7 +472,66 @@ footer{
     padding: 20px; ;
 }
 /* fin actualité */
+/*page contact*/
+.nous-contacter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cbd4c0;
+    color: #5a8100;
+}
+form{
+    margin-top: 80px;
+    background-color: white;
+    padding: 40px 60px;
+    border-radius: 10px;
+}
+h1{
 
+    text-align: center;
+    font-size: 60px;
+}
+.reseaux-sociaux-contact{
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.logo-contact{
+    padding: 5px;
+    margin-left: 10px;
+    border: 1px solid #5a8100;
+    text-align: center;
+    cursor: pointer;
+    font-size: 40px;
+}
+.choisir-email{
+    text-align: center;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+
+}
+.inputs input[type="email"], input[type="password"]{
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color:#cbd4c0;
+    margin-bottom: 15px;
+    outline: none;
+}
+form button{
+    padding: 13px 20px ;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    background-color: #5a8100;
+    color: white;
+    border-radius: 10px;
+}
+/*fin de page contact*/
 
 
 
